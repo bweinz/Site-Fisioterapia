@@ -18,7 +18,7 @@ const links = document.querySelectorAll('nav ul li a')
 //pesquisar por todos os seletores no A, atribua eles ao links
 
 for (const link of links) {
-    link.addEventListener('click' function () {
+    link.addEventListener('click', function() {
         nav.classList.remove('show')
     })
 }
