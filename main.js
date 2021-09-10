@@ -32,3 +32,12 @@ window.addEventListener('scroll', function () {
 })
 
 /*Testimunials Carrossel Slider Swiper */
+
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keybord: true 
+});
