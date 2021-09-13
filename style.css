@@ -612,7 +612,10 @@ footer .social a:hover {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
-
+  
+  #ultimocard .cards { 
+    visibility: hidden;
+  }
   .card {
     padding-left: 3rem;
     padding-right: 3rem;
