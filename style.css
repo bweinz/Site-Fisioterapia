@@ -23,7 +23,7 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 159;
+  --hue: 199;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -363,10 +363,12 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
 
 /*====  TESTIMONIALS ============================ */
 #testimonials {
